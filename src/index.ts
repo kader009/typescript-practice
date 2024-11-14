@@ -5,4 +5,10 @@ function identify<T>(value: T): T {
 }
 
 let numberValue = identify<number>(10);
-console.log(numberValue);
+// console.log(numberValue);
+
+function createPair<S, T>(v1: S, v2: T): [S, T] {
+  return [v1, v2];
+}
+
+// console.log(createPair<string, number>('kader', 29));
