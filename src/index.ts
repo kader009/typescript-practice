@@ -12,3 +12,13 @@ function createPair<S, T>(v1: S, v2: T): [S, T] {
 }
 
 // console.log(createPair<string, number>('kader', 29));
+
+
+enum strilgList{
+  kader = 1,
+  molla,
+  raser,
+  abdul
+}
+
+console.log(strilgList);

@@ -9,3 +9,11 @@ function createPair(v1, v2) {
     return [v1, v2];
 }
 // console.log(createPair<string, number>('kader', 29));
+var strilgList;
+(function (strilgList) {
+    strilgList[strilgList["kader"] = 1] = "kader";
+    strilgList[strilgList["molla"] = 2] = "molla";
+    strilgList[strilgList["raser"] = 3] = "raser";
+    strilgList[strilgList["abdul"] = 4] = "abdul";
+})(strilgList || (strilgList = {}));
+console.log(strilgList);
