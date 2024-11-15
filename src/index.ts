@@ -13,17 +13,15 @@ function createPair<S, T>(v1: S, v2: T): [S, T] {
 
 // console.log(createPair<string, number>('kader', 29));
 
-
-enum strilgList{
+enum strilgList {
   kader = 1,
   molla,
   raser,
-  abdul
+  abdul,
 }
 
 // console.log(strilgList);
 
-
-const names: number[]  = [23, 7, 8, 90]
-console.log(names);
-
+// type inference
+const names = ['23', '7', '8', '90'];
+// console.log(names);

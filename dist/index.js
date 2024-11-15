@@ -17,5 +17,6 @@ var strilgList;
     strilgList[strilgList["abdul"] = 4] = "abdul";
 })(strilgList || (strilgList = {}));
 // console.log(strilgList);
-const names = [23, 7, 8, 90];
-console.log(names);
+// type inference
+const names = ['23', '7', '8', '90'];
+// console.log(names);
