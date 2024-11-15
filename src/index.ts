@@ -21,4 +21,9 @@ enum strilgList{
   abdul
 }
 
-console.log(strilgList);
+// console.log(strilgList);
+
+
+const names: number[]  = [23, 7, 8, 90]
+console.log(names);
+
