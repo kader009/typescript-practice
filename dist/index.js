@@ -20,3 +20,32 @@ var strilgList;
 // type inference
 const names = ['23', '7', '8', '90'];
 // console.log(names);
+const tuple = ['kader', 23, true];
+// console.log(tuple);
+const age = [29, 30];
+const [age1, age2] = age;
+// console.log(age1);
+const car = {
+    type: 'toyota',
+    model: 'f6i noida',
+    year: 2000,
+};
+const language = {
+    en: 'English',
+    bn: 'Bengali',
+    es: 'Spanish',
+};
+// console.log(language['en']);
+const nameAgeMap = {};
+const gether = (nameAgeMap.kader = 29);
+const AboutMe = {
+    name: 'kader',
+    age: 29,
+    Occupation: true,
+};
+// console.log(AboutMe);
+// void => use when function never need to return something
+function VoidFunc() {
+    console.log('i am void function');
+}
+VoidFunc();
