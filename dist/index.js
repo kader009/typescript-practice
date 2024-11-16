@@ -48,4 +48,9 @@ const AboutMe = {
 function VoidFunc() {
     console.log('i am void function');
 }
-VoidFunc();
+// VoidFunc();
+// optional function parameter
+function increment(a, b, c) {
+    return a + b + (c || 0);
+}
+console.log(increment(2, 5));

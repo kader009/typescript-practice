@@ -84,4 +84,12 @@ function VoidFunc(): void {
   console.log('i am void function');
 }
 
-VoidFunc();
+// VoidFunc();
+
+// optional function parameter
+
+function increment(a: number, b: number, c?: number) {
+  return a + b + (c || 0);
+}
+
+console.log(increment(2, 5));
